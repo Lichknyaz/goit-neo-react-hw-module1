@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 20px;
+}
+
+.table {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.title {
+  background-color: #222;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.cell {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.row:nth-child(even) {
+  background-color: #d3d3d3;
+}
